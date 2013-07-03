@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Inu</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tela_inicial">TelaInicialActivity</string>
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="primeiraVez">Primeira vez? Cadastre-se:</string>
+    <string name="botao_cadastro">Cadastrar-se</string>
+    <string name="novo">Novo por aqui?</string>
+    <string name="atualizacoes_recentes">Atualizações recentes</string>
+    <string name="title_activity_cadastro_usuario">CadastroUsuarioActivity</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="confimar_senha">Confirmar senha</string>
+    <string name="cadastrar_usuario">Cadastrar Usuário</string>
+    <string name="link_lattes">Link para o Lattes</string>
+    <string name="telefone">Telefone</string>
+    <string name="celular">Celular</string>
+    <string name="dados_pessoais">Dados pessoais</string>
+    <string name="curso">Curso</string>
+    <string name="area_pesquisa">Área de pesquisa</string>
+    <string name="pesquisa_atual">Pesquisa atual</string>
+    <string name="grupo_pesquisa">Grupo de pesquisa</string>
+    <string name="dados_academicos">Dados acadêmicos</string>
+    <string name="data_nascimento">Data de nascimento</string>
+    <string name="nome_orientador">Nome do orientador</string>
+    <string name="dados_profissionais">Dados profissionais</string>
+    <string name="empresa_instituicao">Nome da Empresa/Instituição</string>
+    <string name="cargo">Cargo</string>
+    <string name="title_activity_cadastro_palestra">CadastroPalestraActivity</string>
+    <string name="cadastrar_palestra">Cadastrar Palestra</string>
+    <string name="titulo_palestra">Título da palestra</string>
+    <string name="nome_palestrante">Nome do palestrante</string>
+    <string name="descricao_palestra">Descrição da palestra</string>
+    <string name="data">Data</string>
+    <string name="horario">Horário</string>
+
+</resources>
