@@ -24,20 +24,28 @@
         </activity>
         <activity
             android:name="com.fbd.inu.LoginActivity"
-            android:label="@string/title_activity_login"
+            android:label="@string/inu_login"
             android:windowSoftInputMode="adjustResize|stateVisible" >
         </activity>
         <activity
             android:name="com.fbd.inu.TelaInicialActivity"
-            android:label="@string/title_activity_tela_inicial" >
+            android:label="@string/inu_inicio" >
         </activity>
         <activity
             android:name="com.fbd.inu.CadastroUsuarioActivity"
-            android:label="@string/title_activity_cadastro_usuario" >
+            android:label="@string/inu_cadastrar_usuario" >
         </activity>
         <activity
             android:name="com.fbd.inu.CadastroPalestraActivity"
-            android:label="@string/title_activity_cadastro_palestra" >
+            android:label="@string/inu_cadastrar_palestra" >
+        </activity>
+        <activity
+            android:name="com.fbd.inu.TipoCadastroActivity"
+            android:label="@string/title_activity_tipo_cadastro" >
+        </activity>
+        <activity
+            android:name="com.fbd.inu.CadastroDefesaActivity"
+            android:label="@string/title_activity_cadastro_defesa" >
         </activity>
     </application>
 
