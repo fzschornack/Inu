@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.fbd.inu.LoginActivity"
+            android:name="com.fbd.inu.LoginActivityold"
             android:label="@string/inu_login"
             android:windowSoftInputMode="adjustResize|stateVisible" >
         </activity>
@@ -46,6 +46,30 @@
         <activity
             android:name="com.fbd.inu.CadastroDefesaActivity"
             android:label="@string/title_activity_cadastro_defesa" >
+        </activity>
+        <activity
+            android:name="com.fbd.inu.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.fbd.inu.VisualizaUsuarioActivity"
+            android:label="@string/title_activity_visualiza_usuario" >
+        </activity>
+        <activity
+            android:name="com.fbd.inu.VisualizaPalestraActivity"
+            android:label="@string/title_activity_visualiza_palestra" >
+        </activity>
+        <activity
+            android:name="com.fbd.inu.BuscaUsuarioActivity"
+            android:label="@string/title_activity_busca_usuario" >
+        </activity>
+        <activity
+            android:name="com.fbd.inu.BuscaPalestraActivity"
+            android:label="@string/title_activity_busca_palestra" >
+        </activity>
+        <activity
+            android:name="com.fbd.inu.CadastroEnderecoActivity"
+            android:label="@string/title_activity_cadastro_endereco" >
         </activity>
     </application>
 

@@ -25,20 +25,20 @@ public final class R {
     }
     public static final class id {
         public static final int LinearLayout1=0x7f080000;
-        public static final int LinearLayout2=0x7f080049;
-        public static final int action_forgot_password=0x7f080050;
-        public static final int action_settings=0x7f08004f;
-        public static final int buscar=0x7f080055;
-        public static final int buscar_usuarios=0x7f080057;
+        public static final int LinearLayout2=0x7f080046;
+        public static final int action_settings=0x7f08004c;
+        public static final int buscar=0x7f080052;
+        public static final int buscar_usuarios=0x7f080054;
         public static final int buttonAdicionarLocalEndereco=0x7f080016;
         public static final int buttonCadastrar=0x7f080017;
-        public static final int buttonCadastro=0x7f080048;
-        public static final int buttonCadastroDefesa=0x7f08004d;
-        public static final int buttonCadastroEvento=0x7f08004e;
-        public static final int buttonCadastroPalestra=0x7f08004c;
-        public static final int buttonLoginFacebook=0x7f080046;
-        public static final int cadastrar=0x7f080056;
-        public static final int calendario=0x7f080053;
+        public static final int buttonCadastrarPerfil=0x7f080045;
+        public static final int buttonCadastroDefesa=0x7f08004a;
+        public static final int buttonCadastroEvento=0x7f08004b;
+        public static final int buttonCadastroPalestra=0x7f080049;
+        public static final int buttonLogin=0x7f080043;
+        public static final int buttonLoginFacebook=0x7f080044;
+        public static final int cadastrar=0x7f080053;
+        public static final int calendario=0x7f080050;
         public static final int editTextAreaPesquisa=0x7f080033;
         public static final int editTextCargo=0x7f08003e;
         public static final int editTextCelular=0x7f08002e;
@@ -48,6 +48,7 @@ public final class R {
         public static final int editTextDataNascimento=0x7f080028;
         public static final int editTextDescricao=0x7f08001d;
         public static final int editTextEmail=0x7f080022;
+        public static final int editTextEmailLogin=0x7f080040;
         public static final int editTextEmpresaInstituicao=0x7f08003c;
         public static final int editTextGrupoPesquisa=0x7f080037;
         public static final int editTextHorario=0x7f080011;
@@ -60,31 +61,28 @@ public final class R {
         public static final int editTextPesquisaAtual=0x7f080035;
         public static final int editTextResumo=0x7f08000d;
         public static final int editTextSenha=0x7f080024;
+        public static final int editTextSenhaLogin=0x7f080042;
         public static final int editTextTelefone=0x7f08002c;
         public static final int editTextTituloDefesa=0x7f080003;
         public static final int editTextTituloPalestra=0x7f080019;
-        public static final int email=0x7f080042;
-        public static final int inicio=0x7f080051;
+        public static final int inicio=0x7f08004e;
         public static final int listViewAreasAcademicasInteresse=0x7f080015;
-        public static final int listViewFeed=0x7f08004b;
-        public static final int login=0x7f080044;
-        public static final int login_form=0x7f080041;
-        public static final int login_status=0x7f08003f;
-        public static final int login_status_message=0x7f080040;
-        public static final int notificacoes=0x7f080052;
-        public static final int palestras=0x7f080054;
-        public static final int password=0x7f080043;
-        public static final int perfil=0x7f080058;
+        public static final int listViewFeed=0x7f080048;
+        public static final int notificacoes=0x7f08004f;
+        public static final int palestras=0x7f080051;
+        public static final int perfil=0x7f080055;
+        public static final int perfil_editar=0x7f080057;
+        public static final int perfil_excluir=0x7f080058;
+        public static final int perfil_visualizar=0x7f080056;
         public static final int radioButtonConclusaoCurso=0x7f080008;
         public static final int radioButtonMestrado=0x7f080009;
         public static final int radioButtonPosDoutorado=0x7f08000b;
         public static final int radioDoutorado=0x7f08000a;
         public static final int radioGroupTipoDefesa=0x7f080007;
+        public static final int recuperar_senha=0x7f08004d;
         public static final int scrollView1=0x7f080001;
-        public static final int sign_in_button=0x7f080045;
         public static final int spinnerAreaAcademica=0x7f080014;
         public static final int textViewAreaPesquisa=0x7f080032;
-        public static final int textViewCadastrarUsuario=0x7f080047;
         public static final int textViewCargo=0x7f08003d;
         public static final int textViewCelular=0x7f08002d;
         public static final int textViewConfirmarSenha=0x7f080025;
@@ -96,8 +94,9 @@ public final class R {
         public static final int textViewDataNascimento=0x7f080027;
         public static final int textViewDescricao=0x7f08001c;
         public static final int textViewEmail=0x7f080021;
+        public static final int textViewEmailLogin=0x7f08003f;
         public static final int textViewEmpresaInstituicao=0x7f08003b;
-        public static final int textViewFeed=0x7f08004a;
+        public static final int textViewFeed=0x7f080047;
         public static final int textViewGrupoPesquisa=0x7f080036;
         public static final int textViewHorario=0x7f080010;
         public static final int textViewLinkLattes=0x7f080029;
@@ -109,34 +108,42 @@ public final class R {
         public static final int textViewPesquisaAtual=0x7f080034;
         public static final int textViewResumo=0x7f08000c;
         public static final int textViewSenha=0x7f080023;
+        public static final int textViewSenhaLogin=0x7f080041;
         public static final int textViewTelefone=0x7f08002b;
         public static final int textViewTipoDefesa=0x7f080006;
         public static final int textViewTituloDefesa=0x7f080002;
         public static final int textViewTituloPalestra=0x7f080018;
     }
     public static final class layout {
-        public static final int activity_cadastro_defesa=0x7f030000;
-        public static final int activity_cadastro_palestra=0x7f030001;
-        public static final int activity_cadastro_usuario=0x7f030002;
-        public static final int activity_login=0x7f030003;
-        public static final int activity_main=0x7f030004;
-        public static final int activity_tela_inicial=0x7f030005;
-        public static final int activity_tipo_cadastro=0x7f030006;
+        public static final int activity_busca_palestra=0x7f030000;
+        public static final int activity_busca_usuario=0x7f030001;
+        public static final int activity_cadastro_defesa=0x7f030002;
+        public static final int activity_cadastro_endereco=0x7f030003;
+        public static final int activity_cadastro_palestra=0x7f030004;
+        public static final int activity_cadastro_usuario=0x7f030005;
+        public static final int activity_login=0x7f030006;
+        public static final int activity_main=0x7f030007;
+        public static final int activity_tela_inicial=0x7f030008;
+        public static final int activity_tipo_cadastro=0x7f030009;
+        public static final int activity_visualiza_palestra=0x7f03000a;
+        public static final int activity_visualiza_usuario=0x7f03000b;
     }
     public static final class menu {
-        public static final int cadastro_defesa=0x7f070000;
-        public static final int cadastro_palestra=0x7f070001;
-        public static final int cadastro_usuario=0x7f070002;
-        public static final int login=0x7f070003;
-        public static final int main=0x7f070004;
-        public static final int tela_inicial=0x7f070005;
-        public static final int tipo_cadastro=0x7f070006;
+        public static final int busca_palestra=0x7f070000;
+        public static final int busca_usuario=0x7f070001;
+        public static final int cadastro_defesa=0x7f070002;
+        public static final int cadastro_endereco=0x7f070003;
+        public static final int cadastro_palestra=0x7f070004;
+        public static final int cadastro_usuario=0x7f070005;
+        public static final int login=0x7f070006;
+        public static final int main=0x7f070007;
+        public static final int tela_inicial=0x7f070008;
+        public static final int tipo_cadastro=0x7f070009;
+        public static final int visualiza_palestra=0x7f07000a;
+        public static final int visualiza_usuario=0x7f07000b;
     }
     public static final class string {
-        public static final int action_forgot_password=0x7f050048;
         public static final int action_settings=0x7f050001;
-        public static final int action_sign_in_register=0x7f050046;
-        public static final int action_sign_in_short=0x7f050047;
         public static final int adicionar_local_endereco=0x7f050035;
         public static final int app_name=0x7f050000;
         public static final int area_pesquisa=0x7f050014;
@@ -149,6 +156,7 @@ public final class R {
         public static final int cadastrar_defesa=0x7f050033;
         public static final int cadastrar_evento_congresso=0x7f050034;
         public static final int cadastrar_palestra=0x7f050032;
+        public static final int cadastrarse=0x7f050047;
         public static final int calendario=0x7f050026;
         public static final int cargo=0x7f05001c;
         public static final int celular=0x7f050011;
@@ -162,12 +170,10 @@ public final class R {
         public static final int data_nascimento=0x7f050018;
         public static final int descricao_palestra=0x7f050021;
         public static final int doutorado=0x7f05003d;
+        public static final int editar=0x7f050044;
         public static final int email=0x7f05000c;
         public static final int empresa_instituicao=0x7f05001b;
-        public static final int error_field_required=0x7f05004d;
-        public static final int error_incorrect_password=0x7f05004c;
-        public static final int error_invalid_email=0x7f05004a;
-        public static final int error_invalid_password=0x7f05004b;
+        public static final int excluir=0x7f050045;
         public static final int grupo_pesquisa=0x7f050016;
         public static final int hello_world=0x7f050002;
         public static final int horario=0x7f050023;
@@ -182,7 +188,6 @@ public final class R {
         public static final int link_lattes=0x7f05000f;
         public static final int login=0x7f050004;
         public static final int login_facebook=0x7f050024;
-        public static final int login_progress_signing_in=0x7f050049;
         public static final int membros_banca=0x7f050040;
         public static final int mestrado=0x7f05003c;
         public static final int nome=0x7f05000b;
@@ -196,23 +201,26 @@ public final class R {
         public static final int pesquisa_atual=0x7f050015;
         public static final int pos_doutorado=0x7f05003e;
         public static final int primeiraVez=0x7f050006;
-        /**  Strings related to login 
-         */
-        public static final int prompt_email=0x7f050044;
-        public static final int prompt_password=0x7f050045;
+        public static final int recuperar_senha=0x7f050048;
         public static final int resumo=0x7f05003f;
         public static final int senha=0x7f050005;
         public static final int telefone=0x7f050010;
         public static final int tipo_defesa=0x7f05003b;
+        public static final int title_activity_busca_palestra=0x7f05004c;
+        public static final int title_activity_busca_usuario=0x7f05004b;
         public static final int title_activity_cadastro_defesa=0x7f050037;
+        public static final int title_activity_cadastro_endereco=0x7f05004d;
         public static final int title_activity_cadastro_palestra=0x7f05001d;
         public static final int title_activity_cadastro_usuario=0x7f05000a;
-        public static final int title_activity_login=0x7f050043;
+        public static final int title_activity_login=0x7f050046;
         public static final int title_activity_tela_inicial=0x7f050003;
         public static final int title_activity_tipo_cadastro=0x7f050031;
+        public static final int title_activity_visualiza_palestra=0x7f05004a;
+        public static final int title_activity_visualiza_usuario=0x7f050049;
         public static final int titulo_defesa=0x7f050038;
         public static final int titulo_palestra=0x7f05001f;
         public static final int usuarios=0x7f050028;
+        public static final int visualizar=0x7f050043;
     }
     public static final class style {
         /** 

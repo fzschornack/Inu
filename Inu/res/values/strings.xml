@@ -68,5 +68,16 @@
     <string name="membros_banca">Membros da banca</string>
     <string name="inu_cadastrar_defesa">Inu - Cadastrar Defesa</string>
     <string name="cadastrar_atualizar">Cadastrar/Atualizar</string>
+    <string name="visualizar">Visualizar</string>
+    <string name="editar">Editar</string>
+    <string name="excluir">Excluir</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="cadastrarse">Cadastrar-se</string>
+    <string name="recuperar_senha">Recuperar senha</string>
+    <string name="title_activity_visualiza_usuario">VisualizaUsuarioActivity</string>
+    <string name="title_activity_visualiza_palestra">VisualizaPalestraActivity</string>
+    <string name="title_activity_busca_usuario">BuscaUsuarioActivity</string>
+    <string name="title_activity_busca_palestra">BuscaPalestraActivity</string>
+    <string name="title_activity_cadastro_endereco">CadastroEnderecoActivity</string>
 
 </resources>
