@@ -18,8 +18,8 @@ public class ConexaoServidor {
 	    try {
 	        HttpPost httpPost = new HttpPost(uri);
 	        httpPost.setEntity(new StringEntity(json));
-	        //httpPost.setHeader("Accept", "application/json");
-	        //httpPost.setHeader("Content-type", "application/json");
+	        httpPost.setHeader("Accept", "application/json");
+	        httpPost.setHeader("Content-type", "application/json");
 	        return new DefaultHttpClient().execute(httpPost);
 	    } catch (UnsupportedEncodingException e) {
 	        e.printStackTrace();

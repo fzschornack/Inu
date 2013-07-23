@@ -79,5 +79,15 @@
     <string name="title_activity_busca_usuario">BuscaUsuarioActivity</string>
     <string name="title_activity_busca_palestra">BuscaPalestraActivity</string>
     <string name="title_activity_cadastro_endereco">CadastroEnderecoActivity</string>
+    <string name="local">Local</string>
+    <string name="adicionar_calendario">Adicionar no Calendário</string>
+    <string name="endereco">Endereço</string>
+    <string name="numero">Número</string>
+    <string name="complemento">Complemento</string>
+    <string name="bairro">Bairro</string>
+    <string name="cidade">Cidade</string>
+    <string name="estado">Estado</string>
+    <string name="pais">País</string>
+    <string name="google_maps">Google Maps</string>
 
 </resources>

@@ -10,6 +10,7 @@ import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class CadastroUsuarioActivity extends Activity {
 
@@ -23,8 +24,8 @@ public class CadastroUsuarioActivity extends Activity {
 		setContentView(R.layout.activity_cadastro_usuario);
 		
 		nome = (EditText) findViewById(R.id.editTextNome);
-		email = (EditText) findViewById(R.id.editTextEmailLogin);
-		senha = (EditText) findViewById(R.id.editTextSenhaLogin);
+		email = (EditText) findViewById(R.id.editTextEmail);
+		senha = (EditText) findViewById(R.id.editTextSenha);
 	}
 
 	@Override
@@ -40,7 +41,9 @@ public class CadastroUsuarioActivity extends Activity {
 		u.setEmail(email.getText().toString());
 		u.setSenha(senha.getText().toString());
 		
-		ConexaoServidor.enviarPost("localhost/cadastro_usuario.php", u.toJSON());
+		Toast.makeText(this, u.getNome()+u.getEmail()+u.getSenha(), Toast.LENGTH_LONG).show();		
+		
+		ConexaoServidor.enviarPost("http://localhost/cadastro_usuario.php", u.toJSON());
 	}
 
 }

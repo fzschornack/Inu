@@ -1,15 +1,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:id="@+id/inicio" android:title="@string/inicio"></item>
-    <item android:id="@+id/notificacoes" android:title="@string/notificacoes"></item><item android:id="@+id/calendario" android:title="@string/calendario"></item>
+    <item android:id="@+id/tela_inicial_menu_inicio" android:title="@string/inicio"></item>
+    <item android:id="@+id/tela_inicial_menu_notificacoes" android:title="@string/notificacoes"></item><item android:id="@+id/tela_inicial_menu_calendario" android:title="@string/calendario"></item>
     <item android:id="@+id/palestras" android:title="@string/palestras">
         <menu>
-            <item android:id="@+id/buscar" android:title="@string/buscar" /><item android:id="@+id/cadastrar" android:title="@string/cadastrar"/>
+            <item android:id="@+id/tela_inicial_menu_buscar_palestra" android:title="@string/buscar" /><item android:id="@+id/tela_inicial_menu_cadastrar_palestra" android:title="@string/cadastrar"/>
             
         </menu>
     </item>
-    <item android:id="@+id/buscar_usuarios" android:title="@string/buscar_usuarios"></item>
+    <item android:id="@+id/tela_inicial_menu_buscar_usuarios" android:title="@string/buscar_usuarios"></item>
     
-    <item android:id="@+id/perfil" android:title="@string/perfil">
+    <item android:id="@+id/tela_incial_menu_perfil" android:title="@string/perfil">
         <menu>
             <item android:id="@+id/perfil_visualizar" android:title="@string/visualizar"/>
             <item android:id="@+id/perfil_editar" android:title="@string/editar"/>

@@ -216,11 +216,10 @@ public class Usuario {
 	public String toJSON() throws JSONException {
 		JSONStringer j = new JSONStringer();
 		j.object()
-			.key("idusuarios").value(idusuarios)
 			.key("nome").value(nome)
 			.key("email").value(email)
 			.key("senha").value(senha)
-			.key("link_lattes").value(linkLattes)
+			/*.key("link_lattes").value(linkLattes)
 			.key("telefone").value(telefone)
 			.key("celular").value(celular)
 			.key("curso").value(curso)
@@ -230,7 +229,7 @@ public class Usuario {
 			.key("empresa_instituicao").value(empresaInstituicao)
 			.key("cargo").value(cargo)
 			.key("nome_orientador").value(nomeOrientador)
-			.key("data_nascimento").value(dataNascimento)
+			.key("data_nascimento").value(dataNascimento)*/
 		.endObject();
 		return j.toString();
 	}
