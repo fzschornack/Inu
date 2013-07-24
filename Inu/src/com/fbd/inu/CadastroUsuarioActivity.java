@@ -48,9 +48,10 @@ public class CadastroUsuarioActivity extends Activity {
 		u.setEmail(email.getText().toString());
 		u.setSenha(senha.getText().toString());
 		
-		Toast.makeText(this, u.getNome()+u.getEmail()+u.getSenha()+"127.0.0.1/inu/cadastro_usuario.php?"+u.toString(), Toast.LENGTH_LONG).show();		
+		System.out.println("http://10.0.2.2/inu/cadastro_usuario.php?"+u.toString());
 		
 		new ConexaoServidor().execute("http://10.0.2.2/inu/cadastro_usuario.php?"+u.toString());
+		
 		
 	}
 

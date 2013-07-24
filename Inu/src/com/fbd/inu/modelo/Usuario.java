@@ -1,5 +1,7 @@
 package com.fbd.inu.modelo;
 
+import java.net.URLEncoder;
+
 import org.json.JSONException;
 import org.json.JSONStringer;
 
@@ -40,7 +42,7 @@ public class Usuario {
 
 
 	public void setNome(String nome) {
-		this.nome = nome;
+		this.nome = URLEncoder.encode(nome);
 	}
 
 
@@ -88,7 +90,7 @@ public class Usuario {
 
 
 	public void setTelefone(String telefone) {
-		this.telefone = telefone;
+		this.telefone = URLEncoder.encode(telefone);
 	}
 
 
@@ -100,7 +102,7 @@ public class Usuario {
 
 
 	public void setCelular(String celular) {
-		this.celular = celular;
+		this.celular = URLEncoder.encode(celular);
 	}
 
 
@@ -112,7 +114,7 @@ public class Usuario {
 
 
 	public void setCurso(String curso) {
-		this.curso = curso;
+		this.curso = URLEncoder.encode(curso);
 	}
 
 
@@ -124,7 +126,7 @@ public class Usuario {
 
 
 	public void setAreaPesquisa(String areaPesquisa) {
-		this.areaPesquisa = areaPesquisa;
+		this.areaPesquisa = URLEncoder.encode(areaPesquisa);
 	}
 
 
@@ -136,7 +138,7 @@ public class Usuario {
 
 
 	public void setPesquisaAtual(String pesquisaAtual) {
-		this.pesquisaAtual = pesquisaAtual;
+		this.pesquisaAtual = URLEncoder.encode(pesquisaAtual);
 	}
 
 
@@ -148,7 +150,7 @@ public class Usuario {
 
 
 	public void setGrupoPesquisa(String grupoPesquisa) {
-		this.grupoPesquisa = grupoPesquisa;
+		this.grupoPesquisa = URLEncoder.encode(grupoPesquisa);
 	}
 
 
@@ -160,7 +162,7 @@ public class Usuario {
 
 
 	public void setEmpresaInstituicao(String empresaInstituicao) {
-		this.empresaInstituicao = empresaInstituicao;
+		this.empresaInstituicao = URLEncoder.encode(empresaInstituicao);
 	}
 
 
@@ -172,7 +174,7 @@ public class Usuario {
 
 
 	public void setCargo(String cargo) {
-		this.cargo = cargo;
+		this.cargo = URLEncoder.encode(cargo);
 	}
 
 
@@ -184,7 +186,7 @@ public class Usuario {
 
 
 	public void setNomeOrientador(String nomeOrientador) {
-		this.nomeOrientador = nomeOrientador;
+		this.nomeOrientador = URLEncoder.encode(nomeOrientador);
 	}
 
 
@@ -204,13 +206,13 @@ public class Usuario {
 	@Override
 	public String toString() {
 		return "idusuarios=" + idusuarios + "&nome=" + nome
-				+ "&email=" + email + "&senha=" + senha + "&linkLattes="
+				+ "&email=" + email + "&senha=" + senha + "&link_lattes="
 				+ linkLattes + "&telefone=" + telefone + "&celular="
-				+ celular + "&curso=" + curso + "&areaPesquisa="
-				+ areaPesquisa + "&pesquisaAtual=" + pesquisaAtual
-				+ "&grupoPesquisa=" + grupoPesquisa + "&empresaInstituicao="
-				+ empresaInstituicao + "&cargo=" + cargo + "&nomeOrientador="
-				+ nomeOrientador + "&dataNascimento=" + dataNascimento + "";
+				+ celular + "&curso=" + curso + "&area_pesquisa="
+				+ areaPesquisa + "&pesquisa_atual=" + pesquisaAtual
+				+ "&grupo_pesquisa=" + grupoPesquisa + "&empresa_instituicao="
+				+ empresaInstituicao + "&cargo=" + cargo + "&nome_orientador="
+				+ nomeOrientador + "&data_nascimento=" + dataNascimento + "";
 	}
 
 }

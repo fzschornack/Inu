@@ -1,5 +1,7 @@
 package com.fbd.inu.modelo;
 
+import java.net.URLEncoder;
+
 import org.json.JSONException;
 import org.json.JSONStringer;
 
@@ -41,7 +43,7 @@ public class Palestra {
 	}
 
 	public void setTitulo(String titulo) {
-		this.titulo = titulo;
+		this.titulo = URLEncoder.encode(titulo);
 	}
 
 	public String getNome_palestrante() {
@@ -49,7 +51,7 @@ public class Palestra {
 	}
 
 	public void setNome_palestrante(String nome_palestrante) {
-		this.nome_palestrante = nome_palestrante;
+		this.nome_palestrante = URLEncoder.encode(nome_palestrante);
 	}
 
 	public String getDescricao() {
@@ -57,7 +59,7 @@ public class Palestra {
 	}
 
 	public void setDescricao(String descricao) {
-		this.descricao = descricao;
+		this.descricao = URLEncoder.encode(descricao);
 	}
 
 	public String getData_horario() {
@@ -65,7 +67,7 @@ public class Palestra {
 	}
 
 	public void setData_horario(String data_horario) {
-		this.data_horario = data_horario;
+		this.data_horario = URLEncoder.encode(data_horario);
 	}
 
 	public int getAreas_academicas_idareas_academicas() {
