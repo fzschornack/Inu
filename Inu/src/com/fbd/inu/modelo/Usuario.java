@@ -213,25 +213,4 @@ public class Usuario {
 				+ nomeOrientador + "&dataNascimento=" + dataNascimento + "";
 	}
 
-	public String toJSON() throws JSONException {
-		JSONStringer j = new JSONStringer();
-		j.object()
-			.key("nome").value(nome)
-			.key("email").value(email)
-			.key("senha").value(senha)
-			/*.key("link_lattes").value(linkLattes)
-			.key("telefone").value(telefone)
-			.key("celular").value(celular)
-			.key("curso").value(curso)
-			.key("area_pesquisa").value(areaPesquisa)
-			.key("pesquisa_atual").value(pesquisaAtual)
-			.key("grupo_pesquisa").value(grupoPesquisa)
-			.key("empresa_instituicao").value(empresaInstituicao)
-			.key("cargo").value(cargo)
-			.key("nome_orientador").value(nomeOrientador)
-			.key("data_nascimento").value(dataNascimento)*/
-		.endObject();
-		return j.toString();
-	}
-
 }
