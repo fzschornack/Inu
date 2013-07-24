@@ -203,14 +203,14 @@ public class Usuario {
 
 	@Override
 	public String toString() {
-		return "Usuario [idusuarios=" + idusuarios + ", nome=" + nome
-				+ ", email=" + email + ", senha=" + senha + ", linkLattes="
-				+ linkLattes + ", telefone=" + telefone + ", celular="
-				+ celular + ", curso=" + curso + ", areaPesquisa="
-				+ areaPesquisa + ", pesquisaAtual=" + pesquisaAtual
-				+ ", grupoPesquisa=" + grupoPesquisa + ", empresaInstituicao="
-				+ empresaInstituicao + ", cargo=" + cargo + ", nomeOrientador="
-				+ nomeOrientador + ", dataNascimento=" + dataNascimento + "]";
+		return "idusuarios=" + idusuarios + "&nome=" + nome
+				+ "&email=" + email + "&senha=" + senha + "&linkLattes="
+				+ linkLattes + "&telefone=" + telefone + "&celular="
+				+ celular + "&curso=" + curso + "&areaPesquisa="
+				+ areaPesquisa + "&pesquisaAtual=" + pesquisaAtual
+				+ "&grupoPesquisa=" + grupoPesquisa + "&empresaInstituicao="
+				+ empresaInstituicao + "&cargo=" + cargo + "&nomeOrientador="
+				+ nomeOrientador + "&dataNascimento=" + dataNascimento + "";
 	}
 
 	public String toJSON() throws JSONException {

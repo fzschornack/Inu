@@ -1,5 +1,12 @@
 package com.fbd.inu;
 
+import java.io.IOException;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONException;
 
 import com.fbd.inu.controle.ConexaoServidor;
@@ -41,9 +48,10 @@ public class CadastroUsuarioActivity extends Activity {
 		u.setEmail(email.getText().toString());
 		u.setSenha(senha.getText().toString());
 		
-		Toast.makeText(this, u.getNome()+u.getEmail()+u.getSenha(), Toast.LENGTH_LONG).show();		
+		Toast.makeText(this, u.getNome()+u.getEmail()+u.getSenha()+"127.0.0.1/inu/cadastro_usuario.php?"+u.toString(), Toast.LENGTH_LONG).show();		
 		
-		ConexaoServidor.enviarPost("http://localhost/cadastro_usuario.php", u.toJSON());
+		new ConexaoServidor().execute("http://10.0.2.2/inu/cadastro_usuario.php?"+u.toString());
+		
 	}
 
 }
