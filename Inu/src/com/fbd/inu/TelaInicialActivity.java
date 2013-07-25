@@ -25,8 +25,6 @@ public class TelaInicialActivity extends Activity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 	    // Handle item selection
 	    switch (item.getItemId()) {
-	        case R.id.tela_inicial_menu_inicio:
-	            return true;
 	        case R.id.tela_inicial_menu_notificacoes:
 	            return true;
 	        case R.id.tela_inicial_menu_calendario:
@@ -40,7 +38,7 @@ public class TelaInicialActivity extends Activity {
 	        case R.id.tela_inicial_menu_buscar_usuarios:
 	        	startActivity(new Intent(this, BuscaUsuarioActivity.class));
 	        	return true;
-	        case R.id.tela_incial_menu_perfil:
+	        case R.id.perfil_visualizar:
 	        	startActivity(new Intent(this, VisualizaUsuarioActivity.class));
 	        	return true;
 	        default:

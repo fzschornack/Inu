@@ -1,5 +1,4 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:id="@+id/tela_inicial_menu_inicio" android:title="@string/inicio"></item>
     <item android:id="@+id/tela_inicial_menu_notificacoes" android:title="@string/notificacoes"></item><item android:id="@+id/tela_inicial_menu_calendario" android:title="@string/calendario"></item>
     <item android:id="@+id/palestras" android:title="@string/palestras">
         <menu>
